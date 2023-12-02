@@ -4,6 +4,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    padding: 0;
   }
   p{
     max-width: 1000px;
@@ -11,7 +12,7 @@ body{
   .inicio > a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.733);
-    display: block;
+    display: inline;
   }
   .inicio > a:hover{
     color: rgba(0, 0, 0, 0.479);
@@ -19,7 +20,6 @@ body{
   a{
     color: rgb(175, 91, 91);
     text-decoration: none;
-    display: block;
   }
   a:hover{
     color: rgba(175, 91, 91, 0.63);
@@ -68,18 +68,45 @@ body{
     margin: 0 auto;
     padding: 1em 2em 1em 2em;
   }
+  .conteinerimg{
+    position: relative;
+    margin: auto;
+    max-width: 700px;
+  }
   #nita{
-  width: 80%;
+  width: 90%;
   max-width: 700px;
   margin: auto;
   display: block;
   }
-  .salmonbackground > a{
+  .sobreaimg{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 75%;
+    text-align: center;
+    background-color: rgb(175, 91, 91);
+    max-width: 150px;
+    width: 90%;
+    padding: 0;
+  }
+  .textosobre{
+    color: white;
+    max-width: 150px;
+    padding: 0;
+  }
+  .salmonbackground2{
+    color: white;
+    background-color:rgb(175, 91, 91) ;
+    text-indent: 2em;
+    margin: 1em;
+    padding: 1em;
+  }
+  .salmonbackground2 > a{
     color: white;
     text-decoration: underline;
-    display: block;
   }
-  .salmonbackground > a:hover{
+  .salmonbackground2 > a:hover{
     color: rgba(255, 255, 255, 0.671);
   }
   #whatsapp{
