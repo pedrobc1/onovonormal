@@ -109,6 +109,10 @@ body{
   .salmonbackground2 > a:hover{
     color: rgba(255, 255, 255, 0.671);
   }
+  .salmontext{
+    max-width: 1000px;
+    text-align: center;
+  }
   #whatsapp{
     
     bottom: 0;
