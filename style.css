@@ -5,7 +5,23 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
   }
-
+  p{
+    max-width: 1000px;
+  }
+  .inicio > a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+  }
+  .inicio > a:hover{
+    color: rgba(0, 0, 0, 0.479);
+  }
+  a{
+    color: rgb(175, 91, 91);
+    text-decoration: none;
+  }
+  a:hover{
+    color: rgba(175, 91, 91, 0.63);
+  }
   .inicio{
     text-align: center;
     margin-top: 3em;
@@ -32,7 +48,34 @@ body{
   .inicio > h2{
     margin: 2em;
   }
+  .inicio > h3{
+    margin: 2em;
+  }
   .inicio2{
     display: inline;
     margin: 1em;
+  }
+  .salmonbackground{
+    color: white;
+    background-color:rgb(175, 91, 91) ;
+    text-indent: 2em;
+    margin: 1em;
+    padding: 1em;
+  }
+  .conteudo > p{
+    margin: 0 auto;
+    padding: 1em 2em 1em 2em;
+  }
+  #nita{
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+  display: block;
+  }
+  .salmonbackground > a{
+    color: white;
+    text-decoration: underline;
+  }
+  .salmonbackground > a:hover{
+    color: rgba(255, 255, 255, 0.671);
   }
